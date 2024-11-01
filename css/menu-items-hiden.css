@@ -1,0 +1,38 @@
+/**
+ * Description: CSS.
+ *
+ * CSS version for WP-HidenMenuItems plugin.
+ *
+ * @category   menu-items-hiden.css
+ * @package    WP-HidenMenuItems
+ * @author     Oleg Klenitsky <klenitskiy.oleg@mail.ru>
+ * @version    1.0.0
+ * @license    GPLv2 or later
+ */
+
+#table_menu_items, #table_menu_users {
+	display: table;
+	border: 1px solid #8c8f94;
+	width:400px;
+}
+#table_menu_items thead, #table_menu_users thead {
+	display: block;
+	padding:5px;
+	border-bottom: 1px solid #8c8f94;
+}
+#table_menu_items thead th, #table_menu_users thead th {
+	padding:0;
+}
+#table_menu_items td, #table_menu_users td {
+	padding:0 0 0 5px;
+}
+#body_menu_items, #body_menu_users {
+	display: block;
+	height: 130px;
+	overflow-y: auto;
+}
+.hmi_items_pwd {
+	min-height: 24px !important;
+	height: 24px !important;
+	width:120px;
+}
